@@ -1,0 +1,117 @@
+body {
+    font-family: Roboto;
+    margin: 0;
+}
+
+header,
+.first-part,
+footer {
+    background-color: #1F2937;
+}
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15%;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 16px;
+}
+
+li a {
+    text-decoration: none;
+    color: #A0A0A0;
+}
+/* ############################################# */
+/* First Part */
+.first-part {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5% 15%;
+}
+
+.first-part div {
+    padding-right: 35%;
+}
+
+.first-part h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.first-part p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.first-part button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    font-size: 20px;
+    font-weight: 400;
+    width: 120px;
+    height: 40px;
+    border-radius: 8px;
+}
+
+.first-part img {
+    width: 500px;
+    border: solid 2px rgba(0, 0, 0, 0.24);
+    border-radius: 8px;
+}
+
+/* ############################################ */
+/* Second Part */
+.second-part {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.second-part h2 {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.second-part div {
+    display: flex;
+    gap: 20px
+}
+
+.second-part img {
+    border: solid 4px #3882F6;
+    border-radius: 10px;
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 200px;
+}
+
+/* ############################################## */
+/* Third Part */
+
+
+/* ################################################ */
+/* Fourth Part */
+
+
+/* ############################################### */
+/* Footer */
+
